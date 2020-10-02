@@ -8,7 +8,7 @@ int main()
  
    scanf("%d",&n);
  
-   printf("Fibonacci series\n");
+   printf("series\n");
  
    for ( c = 1 ; c <= n ; c++ )
    {
