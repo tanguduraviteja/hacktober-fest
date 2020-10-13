@@ -1,6 +1,6 @@
 #include<stdio.h>
  
-int Fibonacci(int);
+int Fib(int);
  
 int main()
 {
@@ -12,19 +12,19 @@ int main()
  
    for ( c = 1 ; c <= n ; c++ )
    {
-      printf("%d\n", Fibonacci(i));
+      printf("%d\n", Fib(i));
       i++; 
    }
  
    return 0;
 }
  
-int Fibonacci(int n)
+int Fib(int n)
 {
    if ( n == 0 )
       return 0;
    else if ( n == 1 )
       return 1;
    else
-      return ( Fibonacci(n-1) + Fibonacci(n-2) );
+      return ( Fib(n-1) + Fib(n-2) );
 } 
