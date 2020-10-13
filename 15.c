@@ -6,7 +6,7 @@ int main()
 {
    char x[100];
  
-   gets(x);
+   gets(Y);
  
         reverse(x, 0, strlen(a)-1);
  
