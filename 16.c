@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-int c[10], d[10], flag = 0, n1, n2, i, j;
-scanf(" %d ",&n1);
-scanf(" %d ",&n2);
-for(i = 0;i < n1;i++)
+int c[10], d[10], flag = 0, num1, num2, i, j;
+scanf(" %d ",&num1);
+scanf(" %d ",&num2);
+for(i = 0;i < num1;i++)
 scanf("%d",&c[i]);
-for(i = 0;i < n2;i++)
+for(i = 0;i < num2;i++)
 scanf("%d",&d[i]);
   
   
 printf("Intersection: ");
   
-   for(i = 0;i < n1;i++)
+   for(i = 0;i < num1;i++)
 {
-   for(j = 0;j < n2;j++)
+   for(j = 0;j < num2;j++)
 {if(b[i] != a[j])
 {
 flag = 1;
